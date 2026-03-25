@@ -1,1 +1,1 @@
-# block-findmy-ios
+# BLOCK-FINDMY-ULTIMATE.mobileconfig
