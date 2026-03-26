@@ -10,32 +10,39 @@
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
                 <key>ServerURL</key>
-                <string>https://dns.nextdns.io/</string>
+                <string>https://dns.nextdns.io/ignore</string>
             </dict>
             <key>PayloadDescription</key>
-            <string>Chặn Find My iPhone</string>
+            <string>Cấu hình DNS để vô hiệu hóa dịch vụ Find My</string>
             <key>PayloadDisplayName</key>
-            <string>BLOCK FIND MY</string>
+            <string>DNS Chặn Find My</string>
             <key>PayloadIdentifier</key>
-            <string>com.block.findmy</string>
+            <string>com.apple.dnsSettings.managed.blockfindmy</string>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
-            <string>11111111-2222-3333-4444-555555555555</string>
+            <string>E7B1C8D2-4FBA-4A8E-9C21-6B3C2D1E0F9A</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
+            <key>ProhibitedDomains</key>
+            <array>
+                <string>fmfmobile.icloud.com</string>
+                <string>fmipmobile.icloud.com</string>
+                <string>device-enrollment-prod.s3.amazonaws.com</string>
+                <string>findmymobile.apple.com</string>
+            </array>
         </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>BLOCK FIND MY IPHONE</string>
+    <string>Hồ sơ Chặn Tìm iPhone</string>
     <key>PayloadIdentifier</key>
-    <string>com.block.findmy.profile</string>
+    <string>com.private.block.findmy</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>AAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE</string>
+    <string>A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
