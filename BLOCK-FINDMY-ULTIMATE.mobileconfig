@@ -12,7 +12,7 @@
       <dict>
 
         <key>DNSProtocol</key>
-        <string>HTTPS</string>
+        <string>Default</string>
 
         <key>ServerAddresses</key>
         <array>
@@ -20,27 +20,9 @@
           <string>45.90.30.139</string>
         </array>
 
-        <!-- Áp dụng toàn bộ mạng -->
         <key>MatchDomains</key>
         <array>
           <string>.</string>
-        </array>
-
-        <!-- Domain Apple cần chặn -->
-        <key>SupplementalMatchDomains</key>
-        <array>
-          <string>icloud.com</string>
-          <string>www.icloud.com</string>
-          <string>setup.icloud.com</string>
-          <string>appleid.apple.com</string>
-          <string>fmip.icloud.com</string>
-          <string>findmy.icloud.com</string>
-          <string>mask.icloud.com</string>
-          <string>gsp-ssl.ls.apple.com</string>
-          <string>configuration.apple.com</string>
-          <string>albert.apple.com</string>
-          <string>identity.apple.com</string>
-          <string>init.icloud.com</string>
         </array>
 
       </dict>
@@ -49,22 +31,16 @@
       <string>com.apple.dnsSettings.managed</string>
 
       <key>PayloadIdentifier</key>
-      <string>com.block.findmy.ultimate</string>
+      <string>com.block.findmy.fixed</string>
 
       <key>PayloadUUID</key>
-      <string>7C9E6679-7425-40DE-944B-E07FC1F90AE7</string>
+      <string>11111111-2222-3333-4444-555555555555</string>
 
       <key>PayloadVersion</key>
       <integer>1</integer>
 
       <key>PayloadDisplayName</key>
-      <string>🔥 Block Find My Ultimate</string>
-
-      <key>PayloadDescription</key>
-      <string>Chặn iCloud + Find My toàn hệ thống (WiFi + 4G)</string>
-
-      <key>PayloadOrganization</key>
-      <string>Khang Dev</string>
+      <string>Block DNS Fixed</string>
 
       <key>PayloadEnabled</key>
       <true/>
@@ -76,19 +52,16 @@
   <string>Configuration</string>
 
   <key>PayloadIdentifier</key>
-  <string>com.profile.blockfindmy.ultimate</string>
+  <string>com.profile.blockfixed</string>
 
   <key>PayloadUUID</key>
-  <string>550E8400-E29B-41D4-A716-446655440000</string>
+  <string>AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE</string>
 
   <key>PayloadVersion</key>
   <integer>1</integer>
 
   <key>PayloadDisplayName</key>
-  <string>🔥 DNS Block Find My (Ultimate)</string>
-
-  <key>PayloadDescription</key>
-  <string>Chặn toàn bộ dịch vụ iCloud và Find My</string>
+  <string>DNS Block Fixed</string>
 
   <key>PayloadOrganization</key>
   <string>Khang Dev</string>
